@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $("#blanks form").submit(function(event) {
     var fNameInput = $("input#fName").val();//looks for the "id person" inside the input html. Then creates a method that sets the inputted value and assigns that to a variable named "person1Input"
-    var lNameInput = $("input#lName").val();
+    var lNameInput =  $("input#lName").val();
     var emailInput = $("input#email").val();
     var track = $("input:radio[name=track]:checked").val();
     var beverage = $("#drink").val();
