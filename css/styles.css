@@ -1,0 +1,12 @@
+#confirm {
+  display: none;
+  width: 500px;
+  background-color: #fff;
+  box-shadow: 1px 1px 1px #000;
+}
+
+ul {
+text-decoration: none;
+list-style-type: none;
+
+}
